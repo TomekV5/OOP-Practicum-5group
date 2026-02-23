@@ -19,9 +19,9 @@
 ---
 
 ## Задача 2
-Да се създаде клас **StudentSerializer**, който записва и чете, записани от файл **Student** класове (от [Задача 4] (https://github.com/alexsrebrov/OOP-Practicum-5group/tree/master/Week01/Tasks#задача-4) от миналата седмица)
+Да се създаде клас **StudentSerializer**, който записва и чете, записани от файл **Student** класове (от [Задача 4](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/master/Week01/Tasks#задача-4) от миналата седмица)
 
 ---
 
 ## Задача 3
-Да се създаде клас **ITCompanySerializer**, който записва и чете, записани от файл **ITCompany** и всички нужни класове (от [Задача 6] (https://github.com/alexsrebrov/OOP-Practicum-5group/tree/master/Week01/Tasks#задача-6) от миналата седмица)
+Да се създаде клас **ITCompanySerializer**, който записва и чете, записани от файл **ITCompany** и всички нужни класове (от [Задача 6](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/master/Week01/Tasks#задача-6) от миналата седмица)
