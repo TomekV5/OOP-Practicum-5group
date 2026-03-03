@@ -1,0 +1,2 @@
+Ivan Ivanov,0,3000,85
+Petar Petrov,1,4500,92
