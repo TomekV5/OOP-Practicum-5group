@@ -6,6 +6,7 @@
 - **Тема 01**:  [Увод в обектно-ориентираното програмиране.](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week01) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week01/Tasks)]
 - **Тема 02**:  [CMake. Потоци. Писане и четене от файлове.](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week02) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week02/Tasks)]
 - **Тема 03**:  [Конструктори. Деструктори. Абстракция. Енкапсулация](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week03) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week03/Tasks)]
+- - **Тема 04**:  [Разделна компилация. Static. Default. Delete. Constexpr. Препроцесор. SOLID](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week04) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week04/Tasks)]
 
 ---
 ## Допълнителни материали
