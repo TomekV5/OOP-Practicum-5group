@@ -1,114 +1,64 @@
-# Теоретични въпроси
+# Разделна Компилация
 
-1. Какво ще се изпринтира на стандартния изход?
-```c++
-int foo()
-{
-    static int x = 0;
-    return ++x;
-}
-
-int main()
-{
-    for (int i = 0; i < 5; i++)
-    {
-        std::cout << foo() << " ";
-    }
-}
-```
+![](/Week04/resources/RK.png)
 
 ---
 
-2. Какво ще се изпринтира на стандартния изход?
-```c++
-// Test.cpp
-static int foo() { return 42; }
-int bar() { return 42; }
-```
-```c++
-// main.cpp
-int main()
-{
-    std::cout << foo() << '\n';
-    std::cout << bar() << '\n';
-}
-```
+# SOLID принципи
+
+### S.O.L.I.D дизайн принципи
+
+The goal of S.O.L.I.D. design is
+
+> "The goal of S.O.L.I.D. design is to create code
+> that is easy to understand, maintain, and test, enabling
+>multiple developers to work collaboratively on it."
 
 ---
 
-3. Какво ще се изпринтира на стандартния изход?
-```c++
-class Test
-{
-public:
-    static int x;
-};
-
-class AnotherTest
-{
-    int x;
-public:
-    static int y;
-
-    static void print()
-    {
-        std::cout << this->x << std::endl;
-        std::cout << x << std::endl;
-        std::cout << y << AnotherTest::y << Test::x << std::endl;
-    }
-}
-
-int Test::x = 42;
-int Test::y = 0;
-
-int main()
-{
-    std::cout << Test::x << std::endl;
-    AnotherTest::print();
-    AnotherTest::y = 42;
-    AnotherTest::print();
-}
-```
----
-
-4. До кои променливи има достъп f(), a g()?
-
-```c++
-class Y
-{
-private:
-        static int x;
-        int y;
-        int z;
-
-public:
-        void f();
-        static void g();
-}
-```
+![](/Week04/resources/SOLID.webp)
 
 ---
 
-5. Какво ще се изпринтира на стандартния изход?
-```c++
-#define MULT(a,b) a * b
+## 1. Single Responisbility Principle
 
-int main() {
-    int x = 2;
-    int y = 3;
-    int result = MULT(x + 1, y + 2);
+### **Всеки клас трябва да отговаря има една единствена "отговорност"**
 
-    std::cout << result << '\n';
-    return 0;
-}
-```
+![](/Week04/resources/SRP.png)
 
-## Задачи
-Представете си, че разработваме система за магазин за дрехи и обувки.
+---
 
-1. Създайте клас **Product**, който да представлява продукт в нашия магазин.
+## 2. Open/Closed Principle
 
-2. Създайте клас **Cart**, който представлява количка в нашия магазин.
+### **Класа винаги трябва да е затворен за модификации и отворен за разширение**
 
-3. Създайте клас **Client**, който представлява клиента в нашия магазин.
+![](/Week04/resources/OCP.jpg)
 
+---
+
+## 3. Liskov Substitution Principle
+
+### **Всеки клас трябва да може да се замени от негови подтипове без това да води до грешки в логиката**
+
+![](/Week04/resources/LSP.png)
+
+---
+
+## 4. Interface Segregation Principle
+
+### **По добре е да имаме много по-специфични класове, отколкото един по-общ**
+
+![](/Week04/resources/ISP.jpg)
+
+---
+
+## 5. Dependency Inversion Principle
+
+### **Логиката от по-високо ниво трябва да зависи от интерфейси**
+
+
+![](/Week04/resources/DIP.jpg)
+
+---
+
+[**For examples and more info**](https://www.geeksforgeeks.org/system-design/solid-principle-in-programming-understand-with-real-life-examples/)
