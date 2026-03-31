@@ -9,7 +9,7 @@
 - **Тема 04**:  [Разделна компилация. Static. Default. Delete. Constexpr. Препроцесор. SOLID](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week04) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week04/Tasks)]
 - **Тема 05**:  [Копиращ конструктор и operator=. Rule of Three](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week05) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week05/Tasks)]
 - **Тема 06**:  [Предефиниране на оператори.Friend функции и класове](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week06) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week06/Tasks)]
-- **Тема 07**:  [Move конструктот и оператор=](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07/Tasks)]
+- **Тема 07**:  [Move конструктор и оператор=](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07/Tasks)]
 
 ---
 ## Допълнителни материали
