@@ -320,7 +320,8 @@ int main() {
     C c1;
     D d;
 
-    C c2 = d.process(c1);
+    C c2;
+    c2 = d.process(c1);
 }
 ```
 
@@ -571,7 +572,7 @@ int main() {
     Wrapper w3 = w1 + w2;
     Wrapper w4 = w1 + num;
     Wrapper w5 = num + w1.getValue();
-    Wrapper w6 = w1.getValue() + num;;
+    Wrapper w6 = w1.getValue() + num;
     return 0;
 }
 ```
