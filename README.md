@@ -10,6 +10,7 @@
 - **Тема 05**:  [Копиращ конструктор и operator=. Rule of Three](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week05) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week05/Tasks)]
 - **Тема 06**:  [Предефиниране на оператори.Friend функции и класове](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week06) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week06/Tasks)]
 - **Тема 07**:  [Move конструктор и оператор=](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week07/Tasks)]
+- **Тема 08**:  [Шаблони](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week08) [[Задачи](https://github.com/alexsrebrov/OOP-Practicum-5group/tree/main/Week08/Tasks)]
 
 ---
 ## Допълнителни материали
