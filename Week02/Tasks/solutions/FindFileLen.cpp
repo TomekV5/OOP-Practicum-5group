@@ -1,0 +1,48 @@
+//Напишете функция, която връща дължината на текстов файл
+
+#include <iostream>
+#include <fstream>
+
+size_t firstSol(std::ifstream& ifs) {
+    if (!ifs.is_open()) {
+        return 0;
+    }
+
+    size_t startingGetPos = ifs.tellg(); //запазваме къде във файла сме били, когато са ни го подали
+    ifs.seekg(0, std::ios::end); // преместваме се на 0 позици от std::ios::end, т.е. се местим до края на файла
+    size_t result = ifs.tellg(); // взимаме get указателя на края, който е и търсената дължина на файла
+    ifs.seekg(startingGetPos); // връщаме се на позицията, на която сме били при подаването на ifs
+
+    return result;
+    /*за текущата задача предполагаме, че някой външен потребител е създал потока, ползвал го и ще го ползва,
+    съответно ние само го подаваме на фунцкията, за да намерим дължината на файла.
+    Не сме ние тези, които отговарят за жизнения цикъл на потока, затова не извикваме ifs.close() в метода
+    (за жизнен цикъл и ownership ще говорим и за други теми в ООП-то, така че да ви се изясни повече)
+    */
+}
+
+size_t secondSol(std::ifstream& ifs) {
+    if (!ifs.is_open()) {
+        return 0;
+    }
+
+    size_t startingGetPos = ifs.tellg();
+    ifs.seekg(0, std::ios::beg);
+    size_t result = 0;
+
+    while (ifs.get() != EOF) {
+        result++;
+    }
+    ifs.seekg(startingGetPos);
+
+    return result;
+}
+
+int main() {
+    std::ifstream ifs("test.txt");
+
+    std::cout << firstSol(ifs) << std::endl;
+    std::cout << secondSol(ifs);
+
+    return 0;
+}
